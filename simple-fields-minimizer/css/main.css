@@ -1,0 +1,32 @@
+.simple-fields-allow-minimize {
+	position: relative;
+}
+
+.simple-fields-allow-minimize .minimize-all {
+    position: absolute;
+    left: 175px;
+    top: 10px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.simple-fields-allow-minimize .minimize-section {
+    position: absolute;
+    right: 5px;
+    top: 35px;
+    margin: 0 auto;
+    display: none;
+}
+
+.simple-fields-allow-minimize .simple-fields-metabox-field-group:hover .minimize-section {
+    display: inline-block;
+}
+
+.simple_fields_minimized_item .minimize-section:before{
+    content: "\f140"!important;
+}
+
+.simple_fields_minimized_item {
+	height: 50px !important;
+	overflow: hidden !important;
+}
